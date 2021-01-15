@@ -8,4 +8,15 @@ import { Persona } from '../../class/persona';
 })
 export class AppComponent {
   p = new Persona(19, "Masculino", "Jair", "Alejandro")
+  edad : number
+  sexo : string
+  nombre : string
+  apellido : string
+
+  constructor(){
+    this.p.setEdad(19)
+    this.p.setSexo("Masculino")
+    this.p.setNombre("Jair Alejandro")
+    this.p.setApellido("Martínez")
+  }
 }
