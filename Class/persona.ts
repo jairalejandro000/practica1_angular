@@ -4,12 +4,12 @@ export class Persona {
     public nombre: string
     public apellido: string
 
-    constructor(edad: number, sexo: string, nombre: string, apellido: string){
+    /*constructor(edad: number, sexo: string, nombre: string, apellido: string){
         this.edad = edad,
         this.sexo = sexo,
         this.nombre = nombre,
         this.apellido = apellido
-    }
+    }*/
     public getEdad() {
         return this.edad;
     }

@@ -7,11 +7,8 @@ import { Persona } from '../../class/persona';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  p = new Persona(19, "Masculino", "Jair", "Alejandro")
-  edad : number
-  sexo : string
-  nombre : string
-  apellido : string
+  p = new Persona(/*19, "Masculino", "Jair", "Alejandro"*/)
+  title: any;
 
   constructor(){
     this.p.setEdad(19)
